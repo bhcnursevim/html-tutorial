@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo Örneği</title>
+</head>
+<body>
+    <h1>Colspan&Rowspan</h1>
+    <table border="1" witdh="300px">
+    <tr> <!--1.satır-->
+        <td>*</td>
+        <td colspan="3">colspan</td><!--yan yana 3 hüçre birleştirir.(2hüçre itibaren.)-->
+        <td>*</td>
+    </tr>
+    <tr> <!--2.satır-->
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr> <!--3.satır-->
+        <td>*</td>
+        <td rowspan="2">rowspan</td><!--alt alta 2 hüçreyi birleştirir.(3.satır 2.hüçre ile 4.satır 2.hüçreyi birleştirdik)-->
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr> <!--4.satır-->
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+</table>
+</body>
+</html>
