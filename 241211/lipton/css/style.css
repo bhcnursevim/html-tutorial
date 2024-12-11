@@ -1,0 +1,45 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../img/fresh-spring-background.jpg);
+    min-height: 100vh;/*body'nin minimum yüksekliğini ekran yüksekliğini kadar ayarlar */
+    background-size: cover;/*resmin ekran kapsaması için kullanılır*/
+}
+#logo img{
+    width:150px;
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+#logo{
+    text-align: center;
+    padding: 24px;
+}
+#menu li{
+    display: inline-block;
+}
+#menu{
+    background-color:rgb(255, 238, 85);
+    box-shadow: 0 0 5px #5f6f70;/*ilk iki değer konum, 5px kalınlık be gölgelik vermek için kullanılır*/
+    text-align: center;/*içerisindeki metin ortalamak için kullanılır*/
+}
+#menu a{
+    display: inline-block;
+    padding:10px 70px ;
+    color: #b82419;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif; 
+    transition: 1s;
+}
+#menu a:hover{
+    background-color: #b82419;
+    color: aliceblue;
+    transition: 1s;
+}
+
